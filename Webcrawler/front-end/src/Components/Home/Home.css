@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+.home-container {
+  display: box;
+  align-items: center;
+  gap: 20px;
+  width: 60%;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3%;
+  scroll-behavior: smooth;
+  color: #4d5156;
+  padding: 20px;
+  border-radius: 10px;
+  background-image: url("../../Images/background.png"); /* Adjust the path based on your file structure */
+  background-size: contain; /* Optional: Adjust the background size as needed */
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.home-content {
+  margin-top: 30%;
+  text-align: center;
+}
+
+h1 {
+  font-weight: bolder;
+  opacity: 90%;
+  font-size: 4.5em;
+  line-height: 0.5em;
+  text-align: center;
+  
+
+  
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+p {
+  text-align: right;
+  width: fit-content;
+  float: right;
+  margin-right: 27%;
+}

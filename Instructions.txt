@@ -1,0 +1,56 @@
+
+# Instructions for Running the Web Crawler Project
+
+This document provides the instructions needed to set up and run the Web Crawler project, which consists of a React front-end and a Spring Boot back-end.
+
+## Prerequisites
+Before you begin, ensure you have the following installed on your system:
+- Java JDK 11 or later
+- Node.js 14.x or later
+- Maven 3.6 or later
+- Git (optional, for cloning the repository)
+
+## Getting the Code
+download the ZIP file of the project from the repository and unzip it.
+
+## Setting Up the Back-End (Spring Boot)
+
+1. Navigate to the `Webcrawler/back-end` directory:
+   ```
+   cd Webcrawler/back-end
+   ```
+
+2. Build the project using Maven:
+   ```
+   mvn clean install
+   ```
+
+3. Run the Spring Boot application:
+   ```
+   ./mvnw clean spring-boot:run
+   ```
+
+This will start the back-end server on `http://localhost:8080`.
+
+## Setting Up the Front-End (React)
+
+1. Navigate to the `Webcrawler/front-end` directory:
+   ```
+   cd Webcrawler/front-end
+   ```
+
+2. Install the necessary Node modules:
+   ```
+   npm install
+   ```
+
+3. Start the React application:
+   ```
+   npm start
+   ```
+
+This will start the front-end and usually opens `http://localhost:3000` in your default web browser automatically. If not, you can manually open the URL in your browser.
+
+## Using the Application
+Once both the front-end and back-end are running, you can interact with the application through the React front-end interface.
+

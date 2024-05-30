@@ -1,0 +1,172 @@
+.gallery {
+  width: 100%;
+}
+
+.text-true {
+  border: none;
+  outline: none !important;
+  display: inline;
+}
+
+.input-group
+  .input-group:not(.has-validation)
+  > .dropdown-toggle:nth-last-child(n + 3),
+.input-group:not(.has-validation)
+  > .form-floating:not(:last-child)
+  > .form-control,
+.input-group:not(.has-validation)
+  > .form-floating:not(:last-child)
+  > .form-select,
+.input-group:not(.has-validation)
+  > :not(:last-child):not(.dropdown-toggle):not(.dropdown-menu):not(
+    .form-floating
+  ) {
+  width: auto !important;
+  background-color: transparent !important;
+  color: #4d5156;
+}
+.input-group .btn {
+  position: relative;
+  z-index: 2;
+  background: linear-gradient(to right, #ff828a, #e53e30) !important;
+}
+
+.container {
+  width: 800px;
+}
+
+/* Custom CSS to style select dropdown options */
+.selectpicker option {
+  background-color: #f7f7f7; /* Desired background color */
+  color: #333; /* Desired text color */
+}
+
+/* Optional: Hover effect for dropdown options */
+.selectpicker option:hover {
+  background-color: #e3e3e3; /* Hover background color */
+}
+
+.text-false .form-control,
+.form-control-sm,
+.SearchPage .form-select .custom-select {
+  background-color: yellow !important;
+  outline: none !important;
+  display: inline;
+
+  background: none !important;
+}
+
+.form-control-lg,
+.text-true,
+.form-select-md {
+  
+  border-color: white !important;
+}
+
+.text-true:focus,
+.text-true:disabled {
+  outline: none !important;
+  box-shadow: none !important;
+  background-color: transparent;
+  appearance: none !important;
+}
+
+.text-true:disabled::-ms-expand,
+.text-true:disabled::after {
+  display: none !important;
+  content: none !important;
+}
+
+.text-true::after .text-true::after {
+  display: none !important;
+  content: none !important;
+}
+
+.label {
+  width: fit-content !important;
+  padding: 0;
+  padding-top: 0.2em;
+  margin: 0;
+  font-size: 1em;
+  font-weight: 700;
+}
+
+.button-true,
+.AddImg-true {
+  display: none;
+}
+
+.button-false,
+.AddImg-false {
+  position: "relative";
+  right: 2em;
+  z-index: 3;
+}
+
+.thumbnails {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  padding: 0;
+  margin-left: 1em;
+  margin-right: auto;
+}
+
+.thumbImg,
+.AddImg-true,
+.AddImg-false {
+  width: 12em;
+  margin: 0.3em;
+  height: 7em;
+  object-fit: cover;
+}
+
+.locationdetails {
+  background-color: var(--primary) !important;
+  line-height: normal;
+  padding: 2em;
+  border-radius: 1em;
+}
+
+.action-button {
+  border: 2px white solid;
+  border-radius: 0.5em !important;
+}
+
+.custom-count {
+  width: fit-content;
+  height: 2em;
+  z-index: 1;
+  position: relative;
+  top: 3%;
+  left: 2%;
+  background-color: var(--primary) !important;
+  color: gray;
+}
+
+.custom-featuresList {
+  line-height: 1em;
+  font-size: 0.9em;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+
+.specifications {
+  background-color: var(--secondary);
+  padding: 0.3em;
+  border-radius: 1em;
+  margin-top: 2em;
+}
+
+.specifications h2 {
+  padding: 0.4em;
+}
+
+.custom-featuresList li {
+  margin-left: 1em;
+  padding: 0.3em;
+}
+

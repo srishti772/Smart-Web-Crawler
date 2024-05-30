@@ -1,0 +1,19 @@
+.menu-container {
+  width: 100%;
+  height: 40px;
+  border-bottom: 3px solid grey;
+  border-image: linear-gradient(to right, #4e81ee, #e1183a, #f5c228, #24bf5a) 1;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: center;
+  align-content: center;
+}
+
+.menu-container h6 {
+  padding: 7px;
+}
+
+a {
+  text-decoration: none;
+}
